@@ -37,7 +37,7 @@ def fileName():
                         f.close()
                         print("The file is closed")
     except FileNotFoundError:
-        print("File not found. \nIf you're sure that the file exists, please provide it's path.\nFor example C:/User/Asrock/Desktop/baba.txt")
+        print("File not found. \nIf you're sure that the file exists in computer, please provide it's path.\nFor example C:/User/Asrock/Desktop/baba.txt")
 """ else:
     print("Extension must be .txt") """
 
