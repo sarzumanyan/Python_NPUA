@@ -53,16 +53,17 @@ class Matrix:
         new_matrix_obj.matrix = new_matrix
         return new_matrix_obj
     
-matrix_1=Matrix(3,3)
-matrix_2=Matrix(3,3)
-print(matrix_1)
-print(matrix_2)
-result_add=matrix_1+matrix_2
-print("The result of adding matrix_1 and matrix_2")
-print(result_add)
-result_sub=matrix_1-matrix_2
-print("The result of substracting matrix_1 and matrix_2")
-print(result_sub)
-result_mult=matrix_1*matrix_2
-print("The result of multiplying matrix_1 and matrix_2")
-print(result_mult)
+if __name__=="__main__":
+    matrix_1=Matrix(3,3)
+    matrix_2=Matrix(3,3)
+    print(matrix_1)
+    print(matrix_2)
+    result_add=matrix_1+matrix_2
+    print("The result of adding matrix_1 and matrix_2")
+    print(result_add)
+    result_sub=matrix_1-matrix_2
+    print("The result of substracting matrix_1 and matrix_2")
+    print(result_sub)
+    result_mult=matrix_1*matrix_2
+    print("The result of multiplying matrix_1 and matrix_2")
+    print(result_mult)
