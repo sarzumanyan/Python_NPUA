@@ -40,9 +40,7 @@ class RaceCar(Car):
 if __name__=="__main__":
     car1=Car(4)
     print(car1.car_seats(),car1.vehicle_color())
-    #print(Car.__mro__)
     boat1=Boat("Titanic",1911)
     print(boat1.boat_name(),boat1.vehicle_year())
-    #print(Boat.__mro__)
     racecar1=RaceCar(4,220)
     print(racecar1.car_seats(),racecar1.vehicle_color(),racecar1.racecar_speed())
